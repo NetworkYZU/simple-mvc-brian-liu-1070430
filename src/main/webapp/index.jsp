@@ -8,8 +8,15 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
         <form method="post" action="ShowBalance2">
             Customer Id: <input type="text" name="id"/><br/>
+            <input type="submit"/>
+        </form>
+        
+        <h1>以下為作業區塊</h1>
+        <form method="post" action="score">
+            Student Id: <input type="text" name="id"/><br/>
             <input type="submit"/>
         </form>
     </body>
