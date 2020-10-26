@@ -56,6 +56,7 @@ public class BankCustomer {
         this.balance = balance;
     }
     
+    //模擬資料庫
     private static Map<String, BankCustomer> db=new HashMap<>();
     static{
         db.put("customer1", new BankCustomer("customer1", "name1", "name1", 10000));
